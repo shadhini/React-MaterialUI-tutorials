@@ -1,0 +1,6 @@
+want the Square component to “remember” that it got clicked, and fill it with an “X” mark. To “remember” things, components use state.
+
+this.state
+* to remeber things
+* remeber things by setting this.state in their constructors
+* should be considered as private to a React componenet that it's defined in 
