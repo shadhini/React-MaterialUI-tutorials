@@ -2,6 +2,7 @@
 
 # dependencies
 /materialui/node_modules
+/react-tutorial/node_modules
 /.pnp
 .pnp.js
 

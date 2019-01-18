@@ -1,0 +1,12 @@
+<button className="square" onClick={function(){alert('click');}}>
+
+<button className="square" onClick={()=>alert('click')}>
+
+
+onClick={() => alert('click')}, 
+we’re passing a function as the onClick prop. I
+t only fires after a click. 
+
+Forgetting () => and writing onClick={alert('click')} 
+is a common mistake, 
+and would fire the alert every time the component re-renders.

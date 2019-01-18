@@ -1,0 +1,47 @@
+React Component
+* small and isolated pieces of code 
+* takes in parameters called props
+* return hierarchy of views to display via the render() method
+
+render()
+* returns a React element, which is a lightweight description of what to render
+* syntax - “JSX” 
+* The <div /> syntax is transformed at build time to React.createElement('div')
+
+
+“JSX”
+* can put any JavaScript expressions within braces inside JSX
+
+React Element
+* Each React element is a JavaScript object that you can store in a variable or pass around in your program.
+
+setState
+* when call setState in a component, React automatically updates the child components inside of it too.
+
+
+
+
+// -------------------------------------
+
+// ShoppingList --> react componenet class/ react component type
+
+class ShoppingList extends React.Component {
+  render() {
+    return (
+      <div className="shopping-list">
+        <h1>Shopping List for {this.props.name}</h1>
+        <ul>
+          <li>Instagram</li>
+          <li>WhatsApp</li>
+          <li>Oculus</li>
+        </ul>
+      </div>
+    );
+  }
+}
+
+// Example usage: <ShoppingList name="Mark" />
+
+// ShoppingList component only renders built-in DOM components like <div /> and <li />
+// can compose and render custom React components too
+e.g. we can now refer to the whole shopping list by writing <ShoppingList />
