@@ -1,0 +1,4 @@
+Simple Component
+-----------------------------
+this is a function
+doesn't use the "class" keyword

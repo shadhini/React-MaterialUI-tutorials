@@ -1,0 +1,15 @@
+Props
+-------------------------------------
+
+react handles data with properties ("Props") and with state.
+
+props are read-only
+
+// when set properties
+
+If you open up React DevTools and inspect the Table component, 
+you’ll see the array of data in the property. 
+The data that’s stored here is known as the virtual DOM, 
+which is a fast and efficient way of syncing data with the actual DOM.
+
+This data is not in the actual DOM yet, though.

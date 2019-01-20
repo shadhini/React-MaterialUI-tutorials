@@ -1,0 +1,19 @@
+Simple Component
+--------------------------------------
+const SimpleComponent = () => { 
+    return <div>Example</div>;
+}
+
+
+Class Component
+--------------------------------------
+class ClassComponent extends Component {
+    render() {
+        return <div>Example</div>;
+    }
+}
+
+
+Note
+-------
+* Note that if the return is contained to one line, it does not need parentheses

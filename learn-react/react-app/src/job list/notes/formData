@@ -1,0 +1,5 @@
+Form Data
+-------------------------------------
+ to add new data to state
+
+ We’ll need the constructor() to use this, and to receive the props of the parent.

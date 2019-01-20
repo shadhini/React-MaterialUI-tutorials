@@ -1,0 +1,2 @@
+Most React apps have many small components, and everything loads into the main App component. 
+Components also often get their own file.

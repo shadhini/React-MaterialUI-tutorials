@@ -1,0 +1,24 @@
+JSX
+-------------------------------
+const heading = <h1 className="site-heading">Hello, React</h1>;
+
+ Under the hood, it’s running createElement, which takes the tag, object containing the properties, and children of the component and renders the same information.
+
+ Non-JSX
+ --------------------------------
+ const heading = React.createElement(
+    'h1',
+    {className: 'site-heading'},
+    'Hello, React!'
+);
+
+
+Notes:
+------------------------
+* "className" is used instead of "class" for adding CSS classes, as "class" is a reserved keyword in JavaScript.
+* Properties and methods in JSX are camelCase – onclick will become onClick.
+* Self-closing tags must end in a slash – e.g. <img />
+
+* JavaScript expressions can also be embedded inside JSX using curly braces, including variables, functions, and properties.
+const name = 'Tania';
+const heading = <h1>Hello, {name}</h1> ;

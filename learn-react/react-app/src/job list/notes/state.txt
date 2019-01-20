@@ -1,0 +1,15 @@
+State
+------------------------------------
+With props, we have a one way data flow, but with state we can update private data from a component.
+can think of state as any data that should be saved and modified without necessarily being added to a databas
+e.g: adding and removing items from a shopping cart before confirming your purchase.
+
+The state object will contain properties for everything you want to store in the state
+
+-------------------------
+retrieve the state, --> this.state.characters 
+update the state, --> this.setState(), a built-in method for manipulating state. 
+
+* You must use this.setState() to modify an array. 
+Simply applying a new value to this.state.property will not work.
+----------------------------

@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Hello React!</title>
+
+
+    <!-- load 3 CDNs: react, react-dom and babel-->
+    <!-- React: the React top level API -->
+    <!-- React DOM: adds DOM-specific methods -->
+    <!-- Babel: a JavaScript compiler that lets us use ES6+ in old browsers -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+</head>
+
+<body>
+
+    <!-- the entry point for our app-->
+    <div id="root"></div>
+
+    <!-- text/babel script type, which is mandatory for using Babel. -->
+    <script type="text/babel">
+        // React code will go here; the custom code
+        
+        class App extends React.Component{
+        // the only required method in a class component, which is used to render DOM nodes
+            render(){
+                return(
+                    // JSX code
+                    <h1>Hello React!</h1>
+                );
+            }
+        }
+
+        
+        ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+
+</body>
+
+</html>

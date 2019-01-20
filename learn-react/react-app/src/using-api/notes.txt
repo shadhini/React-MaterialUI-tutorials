@@ -1,0 +1,16 @@
+componentDidMount()
+--------------------------
+When we pull in API data, we want to use componentDidMount, 
+because we want to make sure the component has rendered to the DOM before we bring in the data.
+
+
+
+Lifecycle
+--------------------------
+the order in which methods are called in React.
+
+
+
+Mounting 
+--------------------------
+refers to an item being inserted into the DOM.
